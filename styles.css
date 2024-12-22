@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Entire page background is black */
+    color: #f9f9f9; /* Light text for readability */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: black; /* Match the overall background */
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-container {
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center-align the content */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 1rem;
+    gap: 1rem; /* Add space between logos and the title */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Adjust font size */
+    margin: 0; /* Remove default margins */
+    color: #008000; /* Green main title */
+    text-transform: uppercase; /* Make the text fully capitalized */
+    text-align: center; /* Center the title text */
+}
+
+/* Logo Styling */
+.header-logo {
+    max-height: 80px; /* Smaller logo size */
+    height: auto;
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Thin Green Line */
+.green-line {
+    width: 90%; /* Make the line nearly full-width */
+    height: 3px; /* Set thickness of the line */
+    background-color: #008000; /* Green line color */
+    margin: 0.5rem auto; /* Add some spacing */
+}
+
+/* Navigation */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Add spacing between the navigation links */
+}
+
+header nav ul li a {
+    color: #ff4d4d; /* Red for navigation text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+    color: #f9f9f9; /* Light text for readability */
+}
+
+section h2 {
+    color: #0073e6; /* Blue for all section titles */
+}
+
+/* Where to Find Us Section */
+#find-us {
+    background-color: #008000; /* Green background for the section */
+    padding: 2rem;
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.find-us-container {
+    display: flex; /* Align map and address side by side */
+    flex-wrap: wrap; /* Ensure it adjusts for smaller screens */
+    justify-content: space-between; /* Add space between elements */
+    align-items: center;
+    gap: 1rem; /* Add spacing between the map and text */
+}
+
+.address {
+    flex: 1; /* Allow the address to take up equal space */
+    max-width: 500px;
+    text-align: center; /* Align text and address centrally */
+    margin-left: auto;
+    color: #f9f9f9; /* Light text for readability */
+}
+
+.map-container {
+    flex: 1; /* Allow the map to take up equal space */
+    max-width: 600px;
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    border: none;
+    height: 400px;
+}
+
+/* Center Address Text */
+.centralized-address {
+    text-align: center; /* Center-align the address text */
+    margin-top: 1rem; /* Add spacing above the address */
+    line-height: 1.8; /* Increase line height for better readability */
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 2rem;
+    background-color: black; /* Match the page's black background */
+    padding: 2rem; /* Add some padding for spacing */
+    border-radius: 5px; /* Optional: Keep a rounded edge */
+    color: #f9f9f9; /* Light text for readability */
+    text-align: center;
+}
+
+#contact strong {
+    color: #0073e6; /* Blue for emphasis */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+#contact p {
+    margin: 0.5rem 0; /* Add spacing between paragraphs */
+}
