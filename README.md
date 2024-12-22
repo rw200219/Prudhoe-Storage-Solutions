@@ -35,6 +35,5 @@ This project is intended to be part of a larger website for the owner of the com
    - **Customer Testimonials Page**: Highlighting customer reviews and experiences.
 
 2. Improved navigation with a site-wide menu and links between pages.
-3. Enhanced responsiveness and SEO optimization.
 
 
