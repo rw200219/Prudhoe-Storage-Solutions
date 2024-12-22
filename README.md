@@ -1,6 +1,6 @@
 # Prudhoe Storage Solutions Website
 
-This project is a simple, responsive website for **Prudhoe Storage Solutions**. It showcases key information about the business, including the location, services, and contact details.
+This ongoing project is a simple, responsive website for **Prudhoe Storage Solutions**. It showcases key information about the business, including the location, services, and contact details.
 
 ## Features
 
