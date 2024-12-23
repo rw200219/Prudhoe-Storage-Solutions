@@ -1,6 +1,6 @@
 # Prudhoe Storage Solutions Website
 
-This ongoing project is a simple, responsive webpage for **Prudhoe Storage Solutions**. It showcases key information about the business, including the location, services, and contact details. So far, I have produced a draft/idea for what the website could look like based on the company's requests. It has the most basic form as of now, over time as I learn new techniques, I will implement them to create a secure website. 
+This ongoing project is a simple, responsive webpage for **Prudhoe Storage Solutions**. It showcases key information about the business, including the location, services, and contact details. So far, I have produced a draft/idea for what the website could look like based on the company's requests. I ttok on this project to develop new skills and broaden my range in the industry.  It has the most basic form as of now, over time as I learn new techniques, I will implement them to create a secure website. 
 
 ## Features
 
